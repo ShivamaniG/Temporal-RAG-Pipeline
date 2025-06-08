@@ -14,8 +14,8 @@ Additionally, the README.md file contains the major points about the project and
 
 To automate the ingestion of documents (PDF, DOCX, XLSX, etc.) by:
 - Downloading the file from a URL
-- Parsing the content into meaningful chunks
-- Generating embeddings using OpenAI
+- Parsing the content using [`unstructured.io`](https://www.unstructured.io) 
+- Generating embeddings using all-MiniLM-L6-v2 embedding model.
 - Storing both chunks and embeddings in Milvus vector DB
 - Managing the pipeline through Temporal.io using asynchronous Python workers
 
