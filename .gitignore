@@ -11,3 +11,6 @@ env/
 
 #docker-compose
 docker-compose/.git/
+
+# Ignore Milvus/etcd WAL and runtime data
+docker-compose/volumes/
