@@ -2,6 +2,12 @@
 
 This project implements an end-to-end document ingestion pipeline using Temporal.io, Python asyncio, OpenAI embeddings, Unstructured.io for document parsing, and Milvus as the vector database. It simulates a real-world use case in Retrieval-Augmented Generation (RAG) systems, where documents are broken into chunks, embedded, and stored for efficient semantic search and retrieval.
 
+### Documentation
+For a detailed explanation of this project, along with screenshots demonstrating the workflow and successful execution, please refer to the documentation available here:
+[Project Documentation](https://docs.google.com/document/d/1pb3_PnLo2wFXpGtc8STgqtOBxIN5NE_45MD94ysJHYw/edit?usp=sharing).
+Additionally, the README.md file contains the major points about the project and detailed instructions on how to set up and run the application.
+
+
 ---
 
 ## 🚀 Project Objective
