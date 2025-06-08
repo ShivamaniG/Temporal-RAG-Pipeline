@@ -39,7 +39,8 @@ To automate the ingestion of documents (PDF, DOCX, XLSX, etc.) by:
 ```
 .
 ├── client/                # Workflow trigger script
-├── worker/                # Temporal workflow and activities
+├── worker/                # Executes tasks in workflow/
+├── workflow/              # Temporal workflow and activities
 ├── milvus/                # Endpoints for Milvus Testing
 ├── docker-compose/        # Docker setup for Temporal & Milvus
 ├── requirements.txt       # Python dependencies
